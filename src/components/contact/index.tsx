@@ -7,8 +7,8 @@ function Contact() {
 
     return (
         <ContactContainer>
-            <TextQuestion>Let's work together?</TextQuestion>
-            <Text>Here's how you can find me:</Text>
+            <TextQuestion>Vamos trabalhar juntos?</TextQuestion>
+            <Text>Como entrar em contato comigo:</Text>
             <IconContainer>
                 <IconLink target="_blank" href="https://www.linkedin.com/in/fernando-gouveia-soares/">
                     <FaLinkedin size={40} />

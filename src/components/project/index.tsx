@@ -9,7 +9,11 @@ export default function Project(props: IProject) {
             <TextContentContainer>
                 <Title>{title}</Title>
                 <Description>{description}</Description>
-                <Authors>{authors}</Authors>
+                <Authors>
+                    Autor/Autores:
+                    {' '}
+                    {authors}
+                </Authors>
                 <Stacks>
                     {stacks.map((stack, index) => (
                         <span key={index}>{stack}</span>

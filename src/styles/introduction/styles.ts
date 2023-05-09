@@ -10,6 +10,7 @@ export const FirstSection = styled.div`
 export const Title = styled.h1`
     font-weight: bold;
     color: #7F8C8D;
+    /* font-size: 16px; */
 `
 
 export const MainCointainer = styled.div`
@@ -36,4 +37,5 @@ export const PictureTitleContainer = styled.div`
 
 export const TextContent = styled.p`
     font-weight: bolder;
+    font-size: 18px;
 `;

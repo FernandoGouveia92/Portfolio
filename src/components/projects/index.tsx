@@ -7,7 +7,7 @@ function Projects() {
 
   return (
     <ProjectsInfoContainer data-aos="fade-up">
-      <TextContent>Meus proetos</TextContent>
+      <TextContent>Meus projetos</TextContent>
       <ProjectsContainer>
         {
           projectsListUtil.map(project => (

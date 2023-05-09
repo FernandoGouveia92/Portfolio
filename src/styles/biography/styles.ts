@@ -34,6 +34,7 @@ export const TextTitle = styled.h1`
 export const Text = styled.p`
     color: white;
     font-weight: 200;
+    font-size: 16px;
 `;
 
 export const StyledLinkTrybe = styled.a`
