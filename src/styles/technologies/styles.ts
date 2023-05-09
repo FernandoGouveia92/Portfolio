@@ -14,14 +14,12 @@ export const MainContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* max-width: 900px;
-  margin: 0 auto; */
+  margin: 0 auto;
 `;
 
 export const SubCointainer = styled.div`
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
@@ -30,13 +28,14 @@ export const SubCointainer = styled.div`
 
 export const TechContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0.5rem;
-  width: 150px;
-  height: 150px;
+  margin: 0.2rem;
+  width: 130px;
+  height: 130px;
   border-radius: 8%;
+  padding: 4px;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 
   &:hover {
@@ -45,10 +44,12 @@ export const TechContainer = styled.div`
   }
 `;
 
-export const TechIcon = styled.div`
-  font-size: 3rem;
+export const TechIcon = styled.a`
+  font-size: 2rem;
   margin-bottom: 0.5rem;
   width: auto;
+  text-decoration: none;
+  color: white;
 `;
 
 export const TechName = styled.p`

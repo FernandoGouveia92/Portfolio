@@ -4,7 +4,9 @@ import Technologies from '@/components/technologies'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Contact from '@/components/contact'
-import WorkExperience from '@/components/workExperience'
+import Jobs from '@/components/jobs'
+import Projects from '@/components/projects'
+import Biografia from '@/components/biografia'
 
 function Presentation() {
 
@@ -18,7 +20,9 @@ function Presentation() {
   return (
     <div>
       <Introduction />
-      <WorkExperience />
+      <Biografia />
+      <Jobs />
+      <Projects />
       <Technologies />
       <Contact />
     </div>

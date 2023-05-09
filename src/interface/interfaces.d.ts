@@ -5,9 +5,10 @@ interface IJobType {
 }
 
 interface IProject {
-    name: string;
-    authors: string;
-    location: string;
+    title: string;
+    authors: string | [];
     description: string;
-    gif: string;
+    stacks: string[];
+    deployLink: string;
+    imagem: string | StaticImageData;
 }

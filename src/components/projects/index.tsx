@@ -1,38 +1,29 @@
-import api from '@/services'
-import React, { useState, useEffect } from 'react'
-
+import React from 'react'
+import projectsListUtil from '@/utils/projectsListUtil'
+import Project from '../project'
+import { ProjectsContainer, ProjectsInfoContainer, TextContent } from '@/styles/projects/styles'
 
 function Projects() {
-  const END_POINT_GET_PROJECTS = "http://localhost:8080/projects/"
-
-  const [projects, setProject] = useState<IProject | any>([])
-
-  const getProjects = async () => {
-    const response = await api
-    .get(END_POINT_GET_PROJECTS)
-    .then((data) => data.data)
-
-    setProject(response)
-  }
-
-  useEffect(() => {
-    getProjects()
-  }, [])
-
 
   return (
-    <div>
-      {
-        projects.map(project => (
-          <div>
-            <title>{project.name}</title>
-            <h2>{project.authors}</h2>
-            <h2>{project.location}</h2>
-            <p>{project.description}</p>
-          </div>
-        ))
-      }
-    </div>
+    <ProjectsInfoContainer data-aos="fade-up">
+      <TextContent>Meus proetos</TextContent>
+      <ProjectsContainer>
+        {
+          projectsListUtil.map(project => (
+            <Project
+              key={project.id}
+              title={project.title}
+              authors={project.authors}
+              description={project.description}
+              stacks={project.stacks}
+              deployLink={project.linkDeDeploy}
+              imagem={project.imagem}
+            />
+          ))
+        }
+      </ProjectsContainer>
+    </ProjectsInfoContainer>
   )
 }
 

@@ -1,0 +1,42 @@
+export default [
+    {
+        title: 'Solar System',
+        id: 1,
+        type: 'Front-end',
+        authors: 'Fernando Gouveia',
+        description: 'Projeto que apresenta dados sobre o sistema solar que habitamos e as missões espaciais realizadas ao longo dos anos.',
+        stacks: ['React', 'Javascript', 'FetchAPI', 'CSS', 'HTML5'],
+        linkDeDeploy: 'https://solar-system-ten-phi.vercel.app',
+        imagem: 'images/solarSystemPicture.png',
+    },
+    {
+        title: 'Trivia',
+        id: 2,
+        type: 'Front-end and tests',
+        authors: 'Fernando Gouveia, Carla Uyemura, João Gustavo, Juliana Álvares, Laís Massacesi',
+        description: 'Projeto que simula um jogo de trivias, possuindo scoreboard e perfil.',
+        stacks: ['React', 'Javascript', 'FetchAPI', 'CSS', 'HTML5', 'Redux', 'RTL', 'Styled Components'],
+        linkDeDeploy: 'https://project-trivia-gamma.vercel.app',
+        imagem: 'images/TriviaPicture.png',
+    },
+    {
+        title: 'Trybewallet',
+        id: 3,
+        type: 'Front-end',
+        authors: 'Fernando Gouveia',
+        description: 'Projeto que permite o usuário organizar uma tabela de gastos, podendo selecionar diferentes moedas de troca e que faz a converão automaticamente',
+        stacks: ['React', 'Javascript', 'FetchAPI', 'CSS', 'HTML5', 'ContextAPI', 'Hooks', 'Styled Components'],
+        linkDeDeploy: 'https://project-trybewallet-two.vercel.app',
+        imagem: 'images/trybewalletPicture.png',
+    },
+    {
+        title: 'Trybetunes',
+        id: 5,
+        type: 'Front-end',
+        authors: 'Fernando Gouveia, Alexandre Bernardes, Henos Vinicius, Eduardo Fradique, Luan Victor',
+        description: 'Projeto que faz uso da API do Mercado Livre, para formular uma página de E-commerce, podendo filtrar os produtos por categorias ou por nome. Possui uma página de checkout.',
+        stacks: ['React', 'Javascript', 'FetchAPI', 'CSS', 'HTML5', 'Local Storage'],
+        linkDeDeploy: 'https://project-trybetunes-x6sp.vercel.app',
+        imagem: 'images/trybetunesPicture.png',
+    }
+]

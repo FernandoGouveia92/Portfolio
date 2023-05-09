@@ -19,13 +19,12 @@ export const MainCointainer = styled.div`
     margin: 0 auto; 
     width: 50%;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 `
 
 export const TextContainer = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0 auto; 
     width: 50%;
 `
@@ -33,5 +32,8 @@ export const TextContainer = styled.div`
 export const PictureTitleContainer = styled.div`
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
-`
+`;
+
+export const TextContent = styled.p`
+    font-weight: bolder;
+`;
