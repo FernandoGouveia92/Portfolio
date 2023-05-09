@@ -33,7 +33,6 @@ function Technologies() {
 
     return (
         <FatherContainer>
-
             <MainContainer>
                 <TitleTech data-aos="fade-rightspl">Stacks atuais</TitleTech>
                 <SubCointainer>
@@ -49,7 +48,7 @@ function Technologies() {
                 </SubCointainer>
             </MainContainer>
             <MainContainer>
-                <TitleTech data-aos="fade-right">Tecnologias que estou aprendendo</TitleTech>
+                <TitleTech data-aos="fade-rightspl">Tecnologias que estou aprendendo</TitleTech>
                 <SubCointainer>
                     {learningTechs.map(({ name, icon }) => (
                         <TechContainer

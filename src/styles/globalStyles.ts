@@ -4,8 +4,7 @@ export const GlobalStyle = createGlobalStyle` body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 12px;
   color: #ECF0F1;
   background-color: black;
   display: flex;
