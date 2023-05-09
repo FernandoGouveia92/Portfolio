@@ -5,7 +5,7 @@ export default function Project(props: IProject) {
 
     const { title, authors, description, stacks, deployLink, imagem } = props;
     return (
-        <ProjectContainer data-aos="fade-up">
+        <ProjectContainer data-aos="fade-right">
             <TextContentContainer>
                 <Title>{title}</Title>
                 <Description>{description}</Description>

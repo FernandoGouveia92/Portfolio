@@ -30,16 +30,6 @@ export default [
         imagem: 'images/trybewalletPicture.png',
     },
     {
-        title: 'Front-end Online Store',
-        id: 4,
-        type: 'Front-end and tests',
-        authors: 'Fernando Gouveia, Alexandre Bernardes, Henos Vinicius, Eduardo Fradique, Luan Victor',
-        description: 'Projeto que faz uso da API do Mercado Livre, para formular uma página de E-commerce, podendo filtrar os produtos por categorias ou por nome. Possui uma página de checkout.',
-        stacks: ['React', 'Javascript', 'FetchAPI', 'CSS', 'HTML5', 'Local Storage'],
-        linkDeDeploy: '',
-        imagem: 'link para imagem da app'
-    },
-    {
         title: 'Trybetunes',
         id: 5,
         type: 'Front-end',

@@ -46,15 +46,13 @@ export const DeployLink = styled.a`
     color: white;
 
     &:hover {
-        color: black;
-        background-color: black;
+        color: yellow;
     }
 `;
 
 export const AppImage = styled.img`
     width: 35%;
     height: 100%;
-
     border-radius: 8px;
     border: solid 5px white;
     filter: drop-shadow(0px 0px 13px rgba(255, 255, 255, 0.5));
