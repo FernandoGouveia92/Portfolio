@@ -19,24 +19,30 @@ export const TextContentContainer = styled.div`
 export const Title = styled.h2`
     font-weight: bolder;
     color: white;
+    font-size: 18px;
 `;
 
 export const Authors = styled.p`
     font-weight: bold;
+    font-size: 16px;
     color: white;
 `;
 
 export const Description = styled.p`
     font-weight: lighter;
+    font-size: 16px;
     color: white;
 `;
 
 export const Stacks = styled.p`
     font-weight: bolder;
     color: white;
+    font-size: 16px;
 
     span:not(:last-child)::after {
-        content: " ";
+        content: "  ";
+        margin-left: 1.5px;
+
     }
 `;
 
@@ -44,6 +50,7 @@ export const DeployLink = styled.a`
     font-weight: bold;
     text-decoration: none;
     color: white;
+    font-size: 16px;
 
     &:hover {
         color: yellow;

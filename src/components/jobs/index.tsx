@@ -13,7 +13,7 @@ function Jobs() {
             <ExperienceContainer>
               <TitleExperience>{job.position}</TitleExperience>
               <DescriptionExperience>{job.description}</DescriptionExperience>
-              <p>{job.periodOfStaying}</p>
+              <DescriptionExperience>{job.periodOfStaying}</DescriptionExperience>
             </ExperienceContainer>
           ))
         }

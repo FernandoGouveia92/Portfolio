@@ -35,9 +35,11 @@ export const ExperienceContainer = styled.div`
 
 export const TitleExperience = styled.div`
     font-weight: bolder;
+    font-size: 16px;
 `
 
 export const DescriptionExperience = styled.p`
     font-weight: 200;
     text-align: justify;
+    font-size: 16px;
 `
