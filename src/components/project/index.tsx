@@ -15,11 +15,13 @@ export default function Project(props: IProject) {
                     {authors}
                 </Authors>
                 <Stacks>
+                    Stacks:
+                    {' '}
                     {stacks.map((stack, index) => (
                         <span key={index}>{stack}</span>
                     ))}
                 </Stacks>
-                <DeployLink target="_blank" href={deployLink}>Check me out!</DeployLink>
+                <DeployLink target="_blank" href={deployLink}>Dá uma olhada!</DeployLink>
             </TextContentContainer>
             <AppImage src={imagem} alt={title} />
         </ProjectContainer>

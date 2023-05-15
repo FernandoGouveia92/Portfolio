@@ -7,6 +7,14 @@ export const ProjectContainer = styled.div`
     flex-direction: row;
     gap: 10px;
     width: 80%;
+
+    /* border: red solid 2px; */
+
+    @media (max-width: 476px) {
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 10px;
+    }
 `;
 
 export const TextContentContainer = styled.div`
@@ -14,6 +22,12 @@ export const TextContentContainer = styled.div`
     justify-content: flex-start;
     flex-direction: column;
     width: 50%;
+
+    @media (max-width: 476px) {
+        flex-direction: column;
+        width: 100%;
+        padding: 8px;
+    }
 `;
 
 export const Title = styled.h2`
@@ -63,4 +77,10 @@ export const AppImage = styled.img`
     border-radius: 8px;
     border: solid 5px white;
     filter: drop-shadow(0px 0px 13px rgba(255, 255, 255, 0.5));
+
+    @media (max-width: 476px) {
+        /* flex-direction: column; */
+        width: 80%;
+        padding-bottom: 10px;
+    }
 `;
