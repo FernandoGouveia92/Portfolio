@@ -17,6 +17,9 @@ export const Text = styled.p`
 export const TextQuestion = styled.p`
     font-weight: bolder;
     font-size: xx-large;
+    @media (max-width: 476px) {
+        font-size: large;
+    }
 `
 
 export const IconContainer = styled.div`
@@ -25,6 +28,10 @@ export const IconContainer = styled.div`
     align-items: center;
     width: 50%;
     margin-top: 1rem;
+
+    @media (max-width: 476px) {
+        justify-content: space-around;
+    }
 `;
 
 export const IconLink = styled.a`

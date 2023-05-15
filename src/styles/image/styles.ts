@@ -8,6 +8,10 @@ export const Picture = styled.img`
   border-radius: 8px;
   border: solid 5px #ffff;
   filter: drop-shadow(0px 0px 13px rgba(255, 255, 255, 0.5));
+
+  @media (max-width: 476px) {
+        width: 100%;
+    }
 `;
 
 export const ImageContainer = styled.div`
