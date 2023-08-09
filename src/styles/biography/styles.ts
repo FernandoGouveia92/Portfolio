@@ -9,10 +9,6 @@ export const BiografyInfoContainer = styled.div`
     width: 80%;
     margin-bottom: 50px;
     gap: 10px;
-
-    /* border-radius: 8px;
-    border: solid 5px white;
-    filter: drop-shadow(0px 0px 13px rgba(255, 255, 255, 0.5)); */
 `;
 
 export const TextContainer = styled.div`
