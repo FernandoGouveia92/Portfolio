@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react'
-import Introduction from '@/components/introduction'
-import Technologies from '@/components/technologies'
-import Aos from 'aos'
+
+import Introduction from '@/components/Introduction'
+import Technologies from '@/components/Technologies'
+import Contact from '@/components/Contact'
+import Projects from '@/components/Projects'
+
+import { HomeContainer } from '@/styles/Home/tyles'
+
 import 'aos/dist/aos.css'
-import Contact from '@/components/contact'
-import Jobs from '@/components/jobs'
-import Projects from '@/components/projects'
-import Biografia from '@/components/biografia'
+import Aos from 'aos'
 
 function Presentation() {
 
@@ -18,14 +20,12 @@ function Presentation() {
   }, [])
 
   return (
-    <div>
+    <HomeContainer>
       <Introduction />
-      <Biografia />
-      <Jobs />
       <Projects />
       <Technologies />
       <Contact />
-    </div>
+    </HomeContainer>
   )
 }
 
