@@ -1,25 +1,40 @@
-import { createGlobalStyle } from 'styled-components';
+import { Global, css } from '@emotion/react';
 
-export const GlobalStyle = createGlobalStyle` body {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
-  color: #ECF0F1;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-}
+const globalStyles = css`
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
+  @media (max-width: 1080px) {
+    html {
+      font-size: 93.75%;
+    }
+  }
 
+  @media (max-width: 720px) {
+    html {
+      font-size: 87.5%;
+    }
+  }
+
+  body {
+    background-color: #111113;
+  }
+
+  body, input, textarea, select, button {
+    font: 400 1rem 'Poppins', sans-serif;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  p, h1, h2 {
+    color: #fff;
+  }
 `;
 
-`
-#000000 - pure black
-#0D1B2A - very dark blue
-#2C3E50 - dark blue
-#34495E - slightly lighter than the above
-#7F8C8D - light gray
-#ECF0F1 - off-white
-
-`
+export const GlobalStyle = Global;
